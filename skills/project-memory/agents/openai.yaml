@@ -1,0 +1,4 @@
+interface:
+  display_name: "项目记忆"
+  short_description: "为项目建立精简记忆，在开发收尾时区分待确认的原则和可直接记录的经验"
+  default_prompt: "用 $project-memory 检查当前项目记忆，整理可直接记录的经验，并列出需要我确认的原则变更。"
