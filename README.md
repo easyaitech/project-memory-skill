@@ -46,6 +46,8 @@ cp -R skills/project-memory/. ~/.cursor/skills/project-memory/
 用 $project-memory 为这个项目建档（若已有超长旧记忆则先在会话起草迁移方案，确认后再原子切换）
 ```
 
+想看看已有记忆里有哪些重复、冲突或过时的条目，可以输入「用 `$project-memory` 检查项目记忆」。它会列出依据和整理建议，文件保持原样。
+
 ## 项目接入（推荐放进项目 `AGENTS.md`）
 
 建议在项目根目录的 `AGENTS.md` 中放下面两行精简指针（`CLAUDE.md` 可通过 `@AGENTS.md` 共用；详细规则留在技能内单一维护，避免多处副本脱节）：
